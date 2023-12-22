@@ -1,0 +1,51 @@
+body{
+    background-color: bisque;
+    color: darkslategrey;
+}
+header{
+    text-align: center;
+    background-color: rgb(224, 200, 200);
+    width: 90%;
+    margin-top: 10px;
+    margin-right: 10px;
+    margin-left: 20px;
+    padding: 5px 10px ;
+}
+.isim{
+    color:darkorchid
+}
+nav{
+    margin: 10px;
+    padding: 5px;
+    display: flex;
+    justify-content:end;
+    
+}
+.profile{
+justify-content: flex-start;
+width: 20%;
+    
+}
+.links{
+    display: flex;
+    justify-content: space-between;
+    width: 75%;
+    margin: 10px;
+    padding: 5px;
+}
+.links a{
+    margin-left: 10px;
+    text-decoration:none;
+    font-size: 20px;
+}
+
+footer{
+    text-align: center;
+    background:linear-gradient(to left,pink, purple, yellow);
+    color: #fff;
+
+   
+}
+.socialMedia a{
+    text-decoration: none;
+}
